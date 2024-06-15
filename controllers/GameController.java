@@ -2,7 +2,7 @@ package controllers;
 
 import java.util.List;
 
-import TicTacToe.strategies.WinningStrategy;
+import strategies.WinningStrategy;
 import models.Game;
 import models.GameState;
 import models.Player;

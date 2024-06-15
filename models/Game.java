@@ -3,7 +3,7 @@ package models;
 import java.util.ArrayList;
 import java.util.List;
 
-import TicTacToe.strategies.WinningStrategy;
+import strategies.WinningStrategy;
 
 public class Game {
     Board board;

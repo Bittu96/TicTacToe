@@ -1,10 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import TicTacToe.strategies.ColumnWinningStrategy;
-import TicTacToe.strategies.DiagonalWinningStrategy;
-import TicTacToe.strategies.RowWinningStrategy;
-import TicTacToe.strategies.WinningStrategy;
 import controllers.GameController;
 import models.Bot;
 import models.BotDifficultyLevel;
@@ -13,6 +9,10 @@ import models.GameState;
 import models.Player;
 import models.PlayerType;
 import models.Symbol;
+import strategies.ColumnWinningStrategy;
+import strategies.DiagonalWinningStrategy;
+import strategies.RowWinningStrategy;
+import strategies.WinningStrategy;
 
 public class Client {
     public static void main(String[] args) {

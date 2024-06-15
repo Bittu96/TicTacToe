@@ -1,4 +1,5 @@
-package TicTacToe.strategies;
+package strategies;
+
 
 import models.Board;
 import models.Move;
